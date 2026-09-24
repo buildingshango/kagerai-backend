@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kagerai-stream-proxy",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-22",
+  "vars": {
+    "STREAM_RESOLVER_URL": "https://veyra-stream-resolver.onrender.com/api/resolve"
+  }
+}
